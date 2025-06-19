@@ -1,0 +1,7 @@
+model:
+  path: "Qwen/Qwen3-14B"
+  max_new_tokens: 1500
+  enable_thinking: false
+  torch_dtype: "bfloat16"
+  device_map: "cuda"
+  attn_implementation: "flash_attention_2"
